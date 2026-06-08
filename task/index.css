@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#fff;
+}
+
+/* Navbar */
+.navbar{
+    height:70px;
+    border-bottom:1px solid #ddd;
+    display:flex;
+    align-items:center;
+    padding:0 30px;
+    gap:30px;
+}
+
+.nav-left{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.nav-left h1{
+    font-size:45px;
+    font-family:Georgia, serif;
+}
+
+.search-box{
+    background:#f2f2f2;
+    padding:10px 15px;
+    border-radius:25px;
+    width:300px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.search-box input{
+    border:none;
+    background:transparent;
+    outline:none;
+    width:100%;
+}
+
+/* Layout */
+.container{
+    display:flex;
+}
+
+/* Sidebar */
+.sidebar{
+    width:260px;
+    min-height:100vh;
+    border-right:1px solid #ddd;
+    padding:30px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar li{
+    padding:15px 0;
+    font-size:24px;
+    color:#444;
+}
+
+.sidebar li i{
+    width:35px;
+}
+
+.sidebar hr{
+    margin:25px 0;
+    border:0;
+    border-top:1px solid #ddd;
+}
+
+.follow-box{
+    display:flex;
+    gap:15px;
+    margin-top:25px;
+}
+
+.follow-box i{
+    font-size:25px;
+}
+
+.follow-box p{
+    color:#555;
+    margin-bottom:10px;
+}
+
+.follow-box a{
+    color:#666;
+}
+
+/* Main Content */
+.content{
+    flex:1;
+    padding:30px 100px;
+}
+
+.tabs{
+    display:flex;
+    gap:40px;
+    border-bottom:1px solid #ddd;
+    margin-bottom:30px;
+}
+
+.tabs span{
+    padding-bottom:15px;
+    cursor:pointer;
+    color:#666;
+}
+
+.tabs .active{
+    color:black;
+    border-bottom:2px solid black;
+}
+
+/* Articles */
+.article{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px 0;
+    border-bottom:1px solid #eee;
+}
+
+.article-text{
+    width:70%;
+}
+
+.author{
+    color:#666;
+    margin-bottom:15px;
+}
+
+.article h2{
+    font-size:42px;
+    margin-bottom:10px;
+    color:#222;
+}
+
+.subtitle{
+    font-size:28px;
+    color:#666;
+    margin-bottom:15px;
+}
+
+.stats{
+    color:#666;
+}
+
+.article img{
+    width:220px;
+    height:130px;
+    object-fit:cover;
+    border-radius:5px;
+}
