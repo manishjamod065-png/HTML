@@ -1,0 +1,27 @@
+@media(max-width:680px){
+    body{
+        background-color: black;
+    }
+}
+@media(min-width:500px) {
+    body{
+        background-color: hotpink;
+    }
+    
+}
+.box{
+    background-color: brown;
+    height: 300px;
+    width: 200px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    transition: scale(1.2);
+    background-color: rgb(14, 124, 221);
+    height: 600px;
+    width: 600px;
+    justify-content: center;
+}
