@@ -8,9 +8,6 @@ font-family:Arial,sans-serif;
 body{
 background:#ececf1;
 }
-
-/* NAVBAR */
-
 .navbar{
 height:60px;
 background:linear-gradient(
@@ -92,14 +89,12 @@ border:1px solid rgba(255,255,255,.3);
 border-radius:10px;
 }
 
-/* MAIN */
 
 .main{
 display:flex;
 height:calc(100vh - 60px);
 }
 
-/* MENU */
 
 .menu{
 width:80px;
@@ -122,7 +117,6 @@ gap:5px;
 
 }
 
-/* SIDEBAR */
 
 .sidebar{
 width:350px;
@@ -182,8 +176,6 @@ width:100%;
 border-radius:10px;
 }
 
-/* WORKSPACE */
-
 .workspace{
 flex:1;
 padding:30px;
@@ -197,14 +189,13 @@ padding:50px;
 
 display:grid;
 grid-template-columns:repeat(4,1fr);
-gap:80px;
+gap:45px;
 
 margin:auto;
 
 box-shadow:0 0 10px rgba(0,0,0,.1);
 }
 
-/* SHAPES */
 
 .shape-circle{
 width:180px;
@@ -293,6 +284,7 @@ clip-path:polygon(
 }
 
 .heart-wrapper{
+    border:1px solid #839ef1;
 display:flex;
 justify-content:center;
 align-items:center;
