@@ -65,3 +65,26 @@ const evenNumbers=array.filter(function(x){
     return x%2===0;
 });
 console.log(evenNumbers);
+// find
+const f = array.find(function(x){
+    return x==3;
+});
+const fdemo = array.find(x=>x>3);
+console.log(f);
+console.log(fdemo);
+// some
+// array ke element ke upar ek condition apply karke true ya false return karta hai
+const s = array.some(function(x){
+    return x>3;
+});
+const sdemo = array.some(x=>x>10);
+console.log(s);
+console.log(sdemo);
+// every
+// array ke element ke upar ek condition apply karke true ya false return karta hai
+const e = array.every(function(x){
+    return x>5;
+});
+const edemo = array.every(x=>x>5);
+console.log(e);
+console.log(edemo);
