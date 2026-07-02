@@ -44,3 +44,28 @@ console.log(r.indexOf("manish"));
 // string me koi word ya character ka last index return karta hai
 console.log(r.lastIndexOf("you"));
 console.log(r.lastIndexOf("manish"));
+
+// slice            
+// string me se koi part nikalne ke liye use hota hai
+let s = "hi how are you im manish ";
+console.log(s.slice(0, 2));
+console.log(s.slice(3, 6));
+console.log(s.slice(7, 10));
+
+// substring
+// string me se koi part nikalne ke liye use hota hai
+console.log(s.substring(3, 10));
+console.log(s.substring(7, 10));
+// replace
+// string me se koi word ya character ko replace karne ke liye use hota hai
+let t = "hi how are you im manish ";
+console.log(t.replace("manish", "rahul"));
+console.log(t.replace("hi", "hello"));
+// replaceall           
+// string me se koi word ya character ko replace karne ke liye use hota hai
+let u = "hi how are you im manish hi";          
+console.log(u.replaceAll("hi", "hello"));   
+// split
+// string ko array me convert karne ke liye use hota hai
+let v = "hi how are you im manish ";
+console.log(v.split(" "));  
