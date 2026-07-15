@@ -4,7 +4,7 @@ const user=[{name:"ansh"},{name:"jatin"}];
 
 // simple creating a server
 http.createServer((req,res)=>{
-    res.write("<h1> Hello my name is this</h1>");
+    res.write("<h1> Hello my name is this</h1>");  
     res.write("<div>jefbjbfwdj ubedjhde</div>")
     res.end("hello");
     
